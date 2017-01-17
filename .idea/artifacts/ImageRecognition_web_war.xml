@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ImageRecognition-web:war">
+    <output-path>$PROJECT_DIR$/ImageRecognition-web/target</output-path>
+    <root id="archive" name="ImageRecognition-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ImageRecognition-web:war exploded" />
+    </root>
+  </artifact>
+</component>
