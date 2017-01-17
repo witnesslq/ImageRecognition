@@ -11,5 +11,24 @@
     <name>ImageRecognition: common</name>
     <artifactId>ImageRecognition-common</artifactId>
 
+    <properties>
+        <spring.version>4.3.5.RELEASE</spring.version>
+        <tess4j.version>3.2.1</tess4j.version>
+        <commons-codec>1.10</commons-codec>
+        <env.type>dev</env.type>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.sourceforge.tess4j</groupId>
+            <artifactId>tess4j</artifactId>
+            <version>${tess4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>${commons-codec}</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -11,9 +11,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="ImageRecognition" target="1.8" />
-      <module name="ImageRecognition-common" target="1.8" />
-      <module name="ImageRecognition-web" target="1.8" />
+      <module name="ImageRecognition" target="1.5" />
+      <module name="ImageRecognition-common" target="1.5" />
+      <module name="ImageRecognition-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
