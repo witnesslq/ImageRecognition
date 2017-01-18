@@ -17,6 +17,7 @@
         <jedis.version>2.9.0</jedis.version>
         <druid.version>1.0.27</druid.version>
         <junit.version>4.12</junit.version>
+        <slf4j.version>1.7.22</slf4j.version>
         <commons-codec>1.10</commons-codec>
         <commons-lang3>3.4</commons-lang3>
         <env.type>dev</env.type>
@@ -46,6 +47,12 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
+        </dependency>
+        <!-- 日志 -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
         </dependency>
         <!-- spring框架 -->
         <dependency>
